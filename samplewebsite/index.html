@@ -6,35 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Ding | Student at Command Shift, Aspiring Software Developer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <header>
 <nav>
-<a href="https://github.com/david-tech-ding/portfolio" target="_blank"></a>
+<div class="navbar">
+    <div class="logos">
+<a href="https://github.com/david-tech-ding/portfolio" target="_blank">
 <img src="/images/github-logo.png" alt="github-logo">
 </a>
+
+<a href="https://www.linkedin.com/in/txding/" target="_blank">
+    <img src="images/linkedin-logo.png" alt="linkedin-logo">
+    </a>
 
 <a href="" target="_blank">
 <img src="images/gmail-logo.png" alt="email-logo">
 </a>
-<a href="" target="_blank">About</a>
-<a href="" target="_blank">Work with me</a>
+</div>
+
+<label class="reach-out">
+<ul>
+ <li><button href="" target="_blank" class="nav-button">About</button></li>
+<li><button href="" target="_blank" class="nav-button">Work with me</button></li>
+</ul>
+</label>
 </nav>
 </header>
 
 <body>
 <main>
     <h1>Hi, I'm David.</h1>
-    <h2>I'm a student at Command Shift, aspiring to break into the tech sector as a software developer.</h2>
-    <h2>I like to keep things simple, which is often not the case in coding, at least not as of yet.</h2>
-<img src="" alt="my-avatar">
+    <p>I'm a student at Command Shift, aspiring to break into the tech sector as a software developer.</p>
+    <p>I like to keep things simple, which is often not the case in coding, at least not as of yet.</p>
+<img src="/images/me-logo.png" alt="my-avatar">
 </main>
 
 <section>
-<div class="container">
-    <div>
+<div class="container-1">
+    <div class="occupation">
         <h1>Current Occupation</h1>
         <p>I am currently working as a Musculoskeletal Physiotherapist at MySportsInjury Clinic at Manchester City Centre.<p>
+    
 
+    
         <h2>My expertise:</h2>
         <ul>
         <li>Spinal Manipulation</li>
@@ -48,7 +65,8 @@
         <a href="https://www.mysportsinjury.co.uk/" target="_blank">
         <button class="book-btn">BOOK HERE</button>
         </a>
-    <div>
+    </div>
+    <div class="box">
         <h1>Aspiring Developer</h1>
         <p>I enjoy coding as it's oriented around problem-solving and working in a collabarative environment</p>
 
@@ -65,7 +83,7 @@
             </ul>
     </div>
 
-    <div>
+    <div class="goals">
         <h1>Goals in Tech</h1>
         <p>To secure a job in the industry as a junior developer and continue my development in a supportive environment<p>
 
@@ -81,8 +99,29 @@
             <li>Game programming</li>
         </ul>
     </div>
+</div>
+
+<div class="container-2">
+    <h1>Subscribe to follow my journey!</h1>
+    <p>Deciding on a career change can be quite daunting, especially if it's towards a completely different industry. If you are in a similar situation and would like to follow my experience, please subscribe!</p>
+
+    <div class="subscribe-area">
+        <label for="fullname">FULL NAME</label>
+        <input type="text" id="fullname">
+
+        <label for="email">EMAIL</label>
+        <input type="email" id="email">
     </div>
 </div>
 </section>
+
+<footer>
+<div class="footer">
+    <p>created by david</p>
+    <a href="">posts</a>
+    <a href="">hobbies</a>
+    <a href="">hello</a>
+</div>
+</footer>
 </body>
 </html>
