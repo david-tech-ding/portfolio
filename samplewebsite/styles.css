@@ -100,6 +100,11 @@ nav ul li a {
     opacity: 1;
 }
 
+section ul li{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
 main {
     background-color: #DDE2EE;
     height: 60vh;
@@ -127,4 +132,30 @@ main p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.box{
+    height: 70vh;
+    width: 100%;
+    padding: 2em 1em;
+    background-color: #BEC9DF;
+    border-radius: 1.25em;
+    margin: 2.5em 1em;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.box ul li{
+    padding-right: 2.8rem;
+}
+
+h3{
+    font-size: 1.2rem;
+    margin: 1em auto;
+}
+
+.subheading{
+    line-height: 0.8em
 }
