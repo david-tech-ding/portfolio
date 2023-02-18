@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
 </head>
 <header>
 <nav>
@@ -61,7 +65,7 @@
         <li>Exercise Rehabilitation</li>
         </ul>
 
-        <h3 class="subheading">Find out more...</h3>
+        <h3 class="subheading-2">Find out more...</h3>
         <a href="https://www.mysportsinjury.co.uk/" target="_blank">
         <button class="book-btn">BOOK HERE</button>
         </a>
@@ -73,7 +77,7 @@
         <h3 class="subheading">Languages I'm interested in:</h3>
         <p>HTML, CSS, JavaScript, Java, C++, Python</p>
 
-        <h3>Languages I speak:</h3>
+        <h3 class="subheading-2">Languages I speak:</h3>
         <ul>
             <li>English</li>
             <li>Malay</li>
@@ -90,7 +94,7 @@
         <h3 class="subheading">Relevant experience:</h3>
         <p>Please refer to my portfolio after the bootcamp</p>
 
-        <h3 class="subheading">Areas of tech I'd like to work towards</h3>
+        <h3 class="subheading-2">Areas of tech I'd like to work in:</h3>
         <ul>
             <li>Web development</li>
             <li>App development</li>
@@ -102,15 +106,21 @@
 </div>
 
 <div class="container-2">
+<div class="box-2">
     <h1>Subscribe to follow my journey!</h1>
     <p>Deciding on a career change can be quite daunting, especially if it's towards a completely different industry. If you are in a similar situation and would like to follow my experience, please subscribe!</p>
+</div>
 
     <div class="subscribe-area">
         <label for="fullname">FULL NAME</label>
-        <input type="text" id="fullname">
+        <input type="text" id="fullname" required>
 
         <label for="email">EMAIL</label>
-        <input type="email" id="email">
+        <input type="email" id="email" required>
+
+        <a href="" target="_blank">
+            <button class="subscribe-btn">SUBSCRIBE</button>
+            </a>
     </div>
 </div>
 </section>
@@ -118,9 +128,11 @@
 <footer>
 <div class="footer">
     <p>created by david</p>
-    <a href="">posts</a>
-    <a href="">hobbies</a>
-    <a href="">hello</a>
+<div id="etc">
+    <a href="" class="footer-text">posts</a>
+    <a href="" class="footer-text">hobbies</a>
+    <a href="" class="footer-text">hello</a>
+</div>
 </div>
 </footer>
 </body>

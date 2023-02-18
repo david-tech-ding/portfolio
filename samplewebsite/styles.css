@@ -138,7 +138,7 @@ main p{
 
 
 .box{
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     padding: 2em 1em;
     background-color: #BEC9DF;
@@ -147,6 +147,7 @@ main p{
     position: relative;
     overflow: hidden;
     text-align: center;
+    font-size: 14.5px;
 }
 
 
@@ -222,11 +223,55 @@ h3{
 
 .container-2{
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0.5em 2em;
+    font-size: 0.85em;
+    background: #8EC1D6;
+    width: 100%
 }
 
+.box-2{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 2em;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+#fullname, #email{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe-btn{
+    margin-top: 0.5em;
+    color: white;
+    background: #0F52BA;
+    border-radius: 0.3em;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer p{
+    margin-right: 50em;
+}
+#etc{
+    margin-right: auto;
+}
+
+.footer-text{
+    margin-left: 2rem;
+}
 @media screen and (max-width: 850px){
     .container-1{
-        flex-wrap: wrap
+        flex-direction: column;
 }
 }
 
