@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import postman from "./tech/postman.png";
+import postgresql from "./tech/postgresql.png";
 
 import question from "./company/question-mark.png";
 import commandshift from "./company/command-shift.png";
@@ -53,6 +55,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  postgresql,
+  postman,
   question,
   commandshift,
   cityrehab,

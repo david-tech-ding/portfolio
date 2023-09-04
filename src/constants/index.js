@@ -8,13 +8,14 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
+  postgresql,
+  postman,
   question,
   commandshift,
   cityrehab,
@@ -82,10 +83,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -112,6 +109,14 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "postman",
+    icon: postman,
   },
 ];
 
