@@ -114,6 +114,54 @@
   -webkit-text-fill-color: transparent;
 }
 
+.orange-text-gradient {
+  background: #ff6d00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ff6d00,
+    #ffbe00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ff6d00,
+    #ffbe00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purple-text-gradient {
+  background: #8a2be2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #8a2be2,
+    #ff69b4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #8a2be2,
+    #ff69b4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-text-gradient {
+  background: #c0c0c0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #c0c0c0,
+    #f5f5f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #c0c0c0,
+    #f5f5f5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

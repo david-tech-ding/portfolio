@@ -21,10 +21,9 @@ import {
   cityrehab,
   sundial,
   mysportsinjury,
-  carrent,
-  jobit,
-  tripguide,
+  mockthreads,
   threejs,
+  taskmanager,
 } from "../assets";
 
 export const navLinks = [
@@ -185,94 +184,86 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Task Manager",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based and mobile app that allows users to create, assign, and search for tasks, view tasks by priority and by users, and altering tasks depending on the status.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "docker",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "node.js",
+        color: "silver-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: taskmanager,
+    source_code_link: "https://github.com/david-tech-ding/task-management-app",
+  },
+  {
+    name: "Mock Threads App",
+    description:
+      "Web and mobile application that allows users to interact with each other through snippets of thoughts and ideas. In this app there is also a communities page where people with similar interests can join a particular community.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "silver-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: mockthreads,
+    source_code_link: "https://github.com/david-tech-ding/threads-app",
   },
 ];
 

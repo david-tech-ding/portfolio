@@ -29,9 +29,8 @@ import cityrehab from "./company/cityrehab.png";
 import sundial from "./company/sundial.png";
 import mysportsinjury from "./company/mysportsinjury.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import taskmanager from "./task-manager.png";
+import mockthreads from "./mockthreads.png";
 
 export {
   logo,
@@ -61,8 +60,7 @@ export {
   commandshift,
   cityrehab,
   sundial,
-  carrent,
-  jobit,
-  tripguide,
+  taskmanager,
+  mockthreads,
   mysportsinjury,
 };
