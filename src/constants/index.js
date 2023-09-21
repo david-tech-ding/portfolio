@@ -26,6 +26,7 @@ import {
   taskmanager,
   rec1,
   rec2,
+  finance,
 } from "../assets";
 
 export const navLinks = [
@@ -261,6 +262,36 @@ const projects = [
     ],
     image: mockthreads,
     source_code_link: "https://github.com/david-tech-ding/threads-app",
+  },
+  {
+    name: "Finance Dashboard App",
+    description:
+      "A finance dashboard app that allows clients or companies to visualise their financial disposition, as well as a simple machine learning algorithm to predict revenue for next year based on results from previous years.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "silver-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finance,
+    source_code_link:
+      "https://github.com/david-tech-ding/finance-dashboard-app",
   },
 ];
 

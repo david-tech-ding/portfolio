@@ -31,6 +31,7 @@ import mysportsinjury from "./company/mysportsinjury.png";
 
 import taskmanager from "./task-manager.png";
 import mockthreads from "./mockthreads.png";
+import finance from "./finance.png";
 
 import rec1 from "./rec1.jpeg";
 import rec2 from "./rec2.jpeg";
@@ -65,6 +66,7 @@ export {
   sundial,
   taskmanager,
   mockthreads,
+  finance,
   mysportsinjury,
   rec1,
   rec2,
