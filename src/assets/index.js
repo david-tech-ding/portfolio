@@ -32,6 +32,9 @@ import mysportsinjury from "./company/mysportsinjury.png";
 import taskmanager from "./task-manager.png";
 import mockthreads from "./mockthreads.png";
 
+import rec1 from "./rec1.jpeg";
+import rec2 from "./rec2.jpeg";
+
 export {
   logo,
   backend,
@@ -63,4 +66,6 @@ export {
   taskmanager,
   mockthreads,
   mysportsinjury,
+  rec1,
+  rec2,
 };

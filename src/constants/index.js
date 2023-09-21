@@ -24,6 +24,8 @@ import {
   mockthreads,
   threejs,
   taskmanager,
+  rec1,
+  rec2,
 } from "../assets";
 
 export const navLinks = [
@@ -184,25 +186,20 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+    testimonial:
+      "David recently graduated from the Command Shift bootcamp, where he consistently demonstrated a strong aptitude for learning and applying the foundations of SQL, Docker, Express, CSS and React among other technologies, completing all work required to a solid standard. He has shown ambition and a desire to push himself as well as thinking about how he can use these skills to help solve real life problems, has shown great promise as a software developer and it has been a pleasure to have them as a student in our program.",
+    name: "Stu Cowley",
+    designation: "Product Developer",
+    company: "AND Digital",
+    image: rec1,
   },
   {
-    testimonial: "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+    testimonial:
+      "David was in our January 2023 cohort at Command  Shift. David always submitted his code exercises on time for review. He has always shown a keen interest inlectures by asking questions and participating in mob exercises. He has demonstrated an excellent understanding of JavaScript basics as well as React. Furthermore, he was paired up with another student in the cohort during the final project. During this time, he not only contributed towards the development of the project but also managed the project very well. He is a self-motivated individual with a drive to improve and learn more if given the opportunity.",
+    name: "Rabbia Tul-Zohra",
+    designation: "Android Developer",
+    company: "Jaguar Land Rover",
+    image: rec2,
   },
 ];
 
@@ -258,7 +255,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "clerk",
+        name: "express",
         color: "purple-text-gradient",
       },
     ],

@@ -7,7 +7,9 @@ import CanvasLoader from "../Loader";
 
 // eslint-disable-next-line react/prop-types
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF(
+    "./desktop_pc/desktop-blend-file/source/aoruspcmaterials applied.blend"
+  );
 
   return (
     <mesh>
