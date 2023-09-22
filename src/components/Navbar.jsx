@@ -91,6 +91,27 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+
+              <a
+                href="https://www.linkedin.com/in/txding/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="h-5 w-5 hover:text-primary-300 mt-1"
+                />
+              </a>
+              <a
+                href="https://github.com/david-tech-ding"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="h-5 w-5 hover:text-primary-300 mt-1"
+                />
+              </a>
             </ul>
           </div>
         </div>
