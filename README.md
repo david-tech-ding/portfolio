@@ -4,6 +4,4 @@ A personal portfolio built with Three.js, React Three Fiber, Tailwind CSS, and F
 
 View my experiences and contact me for work or collaboration opportunities!
 
-
-https://github.com/david-tech-ding/portfolio/assets/108336657/fbbf7697-f4fd-4dcc-80e8-a98fe288d630
-
+https://david-tech-ding.github.io/portfolio/
