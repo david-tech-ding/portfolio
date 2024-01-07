@@ -1,40 +1,40 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import logo from './logo.png';
+import backend from './backend.png';
+import creator from './creator.png';
+import mobile from './mobile.png';
+import web from './web.png';
+import github from './github.png';
+import menu from './menu.svg';
+import close from './close.svg';
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import postman from "./tech/postman.png";
-import postgresql from "./tech/postgresql.png";
+import css from './tech/css.png';
+import docker from './tech/docker.png';
+import figma from './tech/figma.png';
+import git from './tech/git.png';
+import html from './tech/html.png';
+import javascript from './tech/javascript.png';
+import mongodb from './tech/mongodb.png';
+import nodejs from './tech/nodejs.png';
+import reactjs from './tech/reactjs.png';
+import redux from './tech/redux.png';
+import tailwind from './tech/tailwind.png';
+import typescript from './tech/typescript.png';
+import threejs from './tech/threejs.svg';
+import postman from './tech/postman.png';
+import postgresql from './tech/postgresql.png';
 
-import question from "./company/question-mark.png";
-import commandshift from "./company/command-shift.png";
-import cityrehab from "./company/cityrehab.png";
-import sundial from "./company/sundial.png";
-import mysportsinjury from "./company/mysportsinjury.png";
+import question from './company/question-mark.png';
+import commandshift from './company/command-shift.png';
+import cityrehab from './company/cityrehab.png';
+import sundial from './company/sundial.png';
+import mysportsinjury from './company/mysportsinjury.png';
 
-import taskmanager from "./task-manager.png";
-import mockthreads from "./mockthreads.png";
-import finance from "./finance.png";
+import taskmanager from './task-manager.png';
+import aichatbot from './aichatbot.png';
+import finance from './finance.png';
 
-import rec1 from "./rec1.jpeg";
-import rec2 from "./rec2.jpeg";
+import rec1 from './rec1.jpeg';
+import rec2 from './rec2.jpeg';
 
 export {
   logo,
@@ -65,7 +65,7 @@ export {
   cityrehab,
   sundial,
   taskmanager,
-  mockthreads,
+  aichatbot,
   finance,
   mysportsinjury,
   rec1,
